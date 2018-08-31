@@ -127,5 +127,5 @@ alias preview="fzf --preview 'bat --color \"always\" {}'"
 # add support for ctrl+o to open selected file in VS Code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
-alias du="ncdu -rr -x --exclude .git --exclude node_modules"
+alias du="ncdu -rr -x --exclude .git --color dark --exclude node_modules"
 alias help='tldr -t base16'
